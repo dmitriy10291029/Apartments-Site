@@ -32,21 +32,117 @@ section {
 }
 
 h1 {
-    font-family: var(--h1-font-family);
-    font-weight: var(--h1-font-weight);
-    font-size: var(--h1-font-size);
-    letter-spacing: var(--h1-letter-spacing);
-    line-height: var(--h1-line-height);
-    font-style: var(--h1-font-style);
+    font-family: var(--caption-font-family);
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -2.4px;
+    line-height: normal;
+    font-style: normal;
 }
 
 h2 {
-    font-family: var(--h2-font-family);
-    font-weight: var(--h2-font-weight);
-    font-size: var(--h2-font-size);
-    letter-spacing: var(--h2-letter-spacing);
-    line-height: var(--h2-line-height);
-    font-style: var(--h2-font-style);
+    font-family: var(--caption-font-family);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
 }
 
+p {
+    font-family: var(--text-font-family);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 120%;
+    font-style: normal;
+}
 
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------*/
+/* NUNITO FONT */
+/*-------------------------------------------------------------*/
+
+/* nunito-regular - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-v26-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* nunito-700 - cyrillic_cyrillic-ext_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/nunito-v26-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* nunito-900 - cyrillic_cyrillic-ext_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/nunito-v26-cyrillic_cyrillic-ext_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/*-------------------------------------------------------------*/
+/* PT SANS CAPTION FONT*/
+/*-------------------------------------------------------------*/
+
+  /* pt-sans-caption-regular - cyrillic_cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-caption-v19-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* pt-sans-caption-700 - cyrillic_cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-caption-v19-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* pt-sans-caption-regular - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pt-sans-caption-v19-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* pt-sans-caption-700 - cyrillic_cyrillic-ext_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/pt-sans-caption-v19-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* caveat-regular - cyrillic_cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/caveat-v18-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* caveat-700 - cyrillic_cyrillic-ext_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/caveat-v18-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
