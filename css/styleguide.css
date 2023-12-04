@@ -1,11 +1,11 @@
 :root {
-    --color-1-light: rgba(237, 244, 187, 1);
-    --color-2-light: rgba(217, 242, 199, 1);
-    --color-3-light: rgba(196, 238, 221, 1);
-    
-    --color-1-medium: rgba(221, 216, 86, 1);
-    --color-2-medium: rgba(145, 198, 106, 1);
-    --color-3-medium: rgba(10, 195, 161, 1);
+    --yellow-light: rgba(237, 244, 187, 1);
+    --green-light: rgba(217, 242, 199, 1);
+    --blue-light: rgba(196, 238, 221, 1);
+
+    --yellow-medium: rgba(221, 216, 86, 1);
+    --green-medium: rgba(145, 198, 106, 1);
+    --blue-medium: rgba(10, 195, 161, 1);
 
     --h1-font-family: "PTSans Caption-Bold", Helvetica;
     --h1-font-weight: 700;
